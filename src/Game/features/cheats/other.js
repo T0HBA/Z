@@ -9,7 +9,7 @@ export default class Other {
             return;
 
         if (this.#config.speedHack)
-            smoother.currentValue = 1e+1;
+            smoother.currentValue = 1e+100;
         else
             smoother.currentValue = smoother.targetValue;
     }
